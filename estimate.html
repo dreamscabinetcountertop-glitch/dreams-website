@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Estimate | Dreams Cabinet & Countertop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <div class="brand-copy">
+      <strong>DREAMS</strong>
+      <span>CABINET &amp; COUNTERTOP</span>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="estimate.html">Estimate</a>
+      <a href="cabinets.html">Cabinets</a>
+      <a href="countertops.html">Countertops</a>
+      <a href="vanities.html">Vanities</a>
+      <a href="appointment.html">Appointment</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <h1>Get Your Free Estimate</h1>
+  <p>Send project details, kitchen photos, rough measurements, and especially window measurements if there is a window in the kitchen.</p>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="important-note">
+      <strong>Important for kitchen design:</strong> If there is a window in the kitchen, include the distance from the left wall to the window, the distance from the right wall to the window, plus the window width and height.
+    </div>
+
+    <div class="form-wrap">
+      <div class="box">
+        <h2>Estimate Request Form</h2>
+        <p class="lead">This page is separate on purpose so customers land directly on the form instead of searching for it on the homepage.</p>
+
+        <form id="estimateForm">
+          <div class="form-grid">
+            <div class="form-group full"><div class="form-title">Customer Information</div></div>
+            <div class="form-group"><label for="fullName">Full Name</label><input id="fullName" type="text" required></div>
+            <div class="form-group"><label for="phone">Phone Number</label><input id="phone" type="tel" required></div>
+            <div class="form-group"><label for="email">Email Address</label><input id="email" type="email" required></div>
+            <div class="form-group"><label for="city">City / Location</label><input id="city" type="text" placeholder="Ex: Winchester, VA"></div>
+            <div class="form-group"><label for="projectType">Project Type</label><select id="projectType"><option>Kitchen Cabinets</option><option>Quartz Countertops</option><option>Bathroom Vanity</option><option>Full Kitchen Remodel</option><option>Investment Property</option><option>Other</option></select></div>
+            <div class="form-group"><label for="timeline">Project Timeline</label><select id="timeline"><option>As Soon As Possible</option><option>Within 1 Month</option><option>1-3 Months</option><option>3+ Months</option><option>Just Comparing Options</option></select></div>
+
+            <div class="form-group full"><div class="form-title">Kitchen Measurements</div></div>
+            <div class="form-group"><label for="backWall">Back Wall Length</label><input id="backWall" type="text" placeholder="Ex: 120 in"></div>
+            <div class="form-group"><label for="leftWall">Left Wall Length</label><input id="leftWall" type="text" placeholder="Ex: 96 in"></div>
+            <div class="form-group"><label for="rightWall">Right Wall Length</label><input id="rightWall" type="text" placeholder="Ex: 108 in"></div>
+            <div class="form-group"><label for="ceilingHeight">Ceiling Height</label><input id="ceilingHeight" type="text" placeholder="Ex: 96 in"></div>
+            <div class="form-group"><label for="islandLength">Island Length</label><input id="islandLength" type="text" placeholder="Ex: 84 in"></div>
+            <div class="form-group"><label for="islandWidth">Island Width</label><input id="islandWidth" type="text" placeholder="Ex: 36 in"></div>
+
+            <div class="form-group full"><div class="form-title">Window Measurements</div></div>
+            <div class="form-group"><label for="hasWindow">Is There a Window in the Kitchen?</label><select id="hasWindow"><option>Yes</option><option>No</option></select></div>
+            <div class="form-group"><label for="windowWall">Which Wall Is the Window On?</label><select id="windowWall"><option>Back Wall</option><option>Left Wall</option><option>Right Wall</option><option>Not Sure</option></select></div>
+            <div class="form-group"><label for="leftToWindow">Left Wall to Window</label><input id="leftToWindow" type="text"></div>
+            <div class="form-group"><label for="rightToWindow">Right Wall to Window</label><input id="rightToWindow" type="text"></div>
+            <div class="form-group"><label for="windowWidth">Window Width</label><input id="windowWidth" type="text" placeholder="Ex: 36 in"></div>
+            <div class="form-group"><label for="windowHeight">Window Height</label><input id="windowHeight" type="text" placeholder="Ex: 48 in"></div>
+            <div class="form-group"><label for="windowSillHeight">Height From Floor to Window Bottom</label><input id="windowSillHeight" type="text"></div>
+            <div class="form-group"><label for="windowTopHeight">Height From Floor to Window Top</label><input id="windowTopHeight" type="text"></div>
+
+            <div class="form-group full"><div class="form-title">Appliances / Layout</div></div>
+            <div class="form-group"><label for="sinkLocation">Sink Location</label><input id="sinkLocation" type="text"></div>
+            <div class="form-group"><label for="rangeLocation">Range / Stove Location</label><input id="rangeLocation" type="text"></div>
+            <div class="form-group"><label for="fridgeLocation">Refrigerator Location</label><input id="fridgeLocation" type="text"></div>
+            <div class="form-group"><label for="microwaveLocation">Microwave / Oven Location</label><input id="microwaveLocation" type="text"></div>
+            <div class="form-group full"><label for="measurementsExtra">Other Important Measurements</label><textarea id="measurementsExtra"></textarea></div>
+
+            <div class="form-group full"><div class="form-title">Design Preferences</div></div>
+            <div class="form-group"><label for="cabinetStyle">Cabinet Color Preference</label><input id="cabinetStyle" type="text" placeholder="Ex: dove / white / navy blue"></div>
+            <div class="form-group"><label for="countertopStyle">Countertop Preference</label><input id="countertopStyle" type="text" placeholder="Ex: Calacatta Laza / Pure White"></div>
+            <div class="form-group full"><label for="details">Project Details</label><textarea id="details"></textarea></div>
+            <div class="form-group full"><label for="photos">Upload Photos</label><input id="photos" type="file" multiple></div>
+            <div class="form-group full"><button class="btn" type="submit">Submit Estimate Request</button></div>
+          </div>
+        </form>
+
+        <div class="muted-note">Note: photo files usually need to be attached manually after the email draft opens.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <p><strong>Dreams Cabinet &amp; Countertop</strong></p>
+  <p class="small">Kitchen Cabinets • Quartz Countertops • Bathroom Vanities</p>
+  <p class="small">Phone: (571) 668-0358</p>
+  <p class="small">Email: dreamscabinetcountertop@gmail.com</p>
+  <p class="small">Serving Virginia, Maryland, Washington DC, and nearby West Virginia areas</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

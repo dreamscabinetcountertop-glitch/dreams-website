@@ -1,0 +1,108 @@
+{
+  "cabinet_cards": [
+    {
+      "title": "White Color",
+      "desc": "Many additional samples and door styles can be shown during consultation.",
+      "img": "images/cabinets/white-color.jpeg"
+    },
+    {
+      "title": "Dove Color",
+      "desc": "Many additional samples and door styles can be shown during consultation.",
+      "img": "images/cabinets/dove-color.jpeg"
+    },
+    {
+      "title": "Gray Color",
+      "desc": "Many additional samples and door styles can be shown during consultation.",
+      "img": "images/cabinets/gray-color.jpeg"
+    },
+    {
+      "title": "Navy Blue",
+      "desc": "Many additional samples and door styles can be shown during consultation.",
+      "img": "images/cabinets/navy-blue.jpg"
+    },
+    {
+      "title": "Brown Color",
+      "desc": "Many additional samples and door styles can be shown during consultation.",
+      "img": "images/cabinets/brown-color.jpeg"
+    },
+    {
+      "title": "Espresso Color",
+      "desc": "Many additional samples and door styles can be shown during consultation.",
+      "img": "images/cabinets/espresso-color.jpeg"
+    }
+  ],
+  "countertop_cards": [
+    {
+      "title": "Calacatta Laza",
+      "desc": "Real quartz inventory style. Exact slab selection can be finalized during consultation.",
+      "img": "images/countertops/calacatta-laza.jpg"
+    },
+    {
+      "title": "Carrara Marmi",
+      "desc": "Real quartz inventory style. Exact slab selection can be finalized during consultation.",
+      "img": "images/countertops/carrara-marmi.jpg"
+    },
+    {
+      "title": "Bianco Calacatta",
+      "desc": "Real quartz inventory style. Exact slab selection can be finalized during consultation.",
+      "img": "images/countertops/bianco-calacatta.jpg"
+    },
+    {
+      "title": "ET Serena",
+      "desc": "Real quartz inventory style. Exact slab selection can be finalized during consultation.",
+      "img": "images/countertops/et-serena.jpg"
+    },
+    {
+      "title": "Pure White",
+      "desc": "Real quartz inventory style. Exact slab selection can be finalized during consultation.",
+      "img": "images/countertops/pure-white.jpg"
+    },
+    {
+      "title": "Sparkling White",
+      "desc": "Real quartz inventory style. Exact slab selection can be finalized during consultation.",
+      "img": "images/countertops/sparkling-white.jpg"
+    },
+    {
+      "title": "Statuary Glory",
+      "desc": "Real quartz inventory style. Exact slab selection can be finalized during consultation.",
+      "img": "images/countertops/statuary-glory.jpg"
+    }
+  ],
+  "vanity_cards": [
+    {
+      "title": "18 inch White Single Sink Vanity",
+      "desc": "Real vanity product style. Exact size and finish can be confirmed during consultation.",
+      "img": "images/vanities/18-inch-white-single-sink-vanity.jpeg"
+    },
+    {
+      "title": "18 inch Gray Bathroom Vanity",
+      "desc": "Real vanity product style. Exact size and finish can be confirmed during consultation.",
+      "img": "images/vanities/18-inch-gray-bathroom-vanity.jpeg"
+    },
+    {
+      "title": "24 inch Navy Blue Single Sink Vanity",
+      "desc": "Real vanity product style. Exact size and finish can be confirmed during consultation.",
+      "img": "images/vanities/24-inch-navy-blue-single-sink-vanity.jpeg"
+    },
+    {
+      "title": "32 inch High Gloss Cappuccino Single Sink Floating Vanity",
+      "desc": "Real vanity product style. Exact size and finish can be confirmed during consultation.",
+      "img": "images/vanities/32-inch-high-gloss-cappuccino-single-sink-floating-vanity.jpeg"
+    },
+    {
+      "title": "48 inch Gray Single Sink Vanity",
+      "desc": "Real vanity product style. Exact size and finish can be confirmed during consultation.",
+      "img": "images/vanities/48-inch-gray-single-sink-vanity.jpeg"
+    },
+    {
+      "title": "60 inch Green Double Sink Vanity",
+      "desc": "Real vanity product style. Exact size and finish can be confirmed during consultation.",
+      "img": "images/vanities/60-inch-green-double-sink-vanity.png"
+    },
+    {
+      "title": "72 inch Navy Blue Double Sink Vanity",
+      "desc": "Real vanity product style. Exact size and finish can be confirmed during consultation.",
+      "img": "images/vanities/72-inch-navy-blue-double-sink-vanity.jpeg"
+    }
+  ]
+}
