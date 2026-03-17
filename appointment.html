@@ -36,25 +36,66 @@
     <div class="form-wrap">
       <div class="box">
         <h2>Appointment Request</h2>
-        <p class="lead">Keep showroom scheduling separate from the estimate flow for a cleaner and more professional customer journey.</p>
+        <p class="lead">Fill out the form below and we will receive your appointment request by email.</p>
 
-        <form id="appointmentForm">
+        <form action="https://formsubmit.co/dreamscabinetcountertop@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Appointment Request - Dreams Cabinet & Countertop">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+
           <div class="form-grid">
-            <div class="form-group"><label for="apptName">Full Name</label><input id="apptName" type="text" required></div>
-            <div class="form-group"><label for="apptPhone">Phone Number</label><input id="apptPhone" type="tel" required></div>
-            <div class="form-group"><label for="apptEmail">Email Address</label><input id="apptEmail" type="email" required></div>
-            <div class="form-group"><label for="apptInterest">Product Interest</label><select id="apptInterest"><option>Kitchen Cabinets</option><option>Quartz Countertops</option><option>Bathroom Vanity</option><option>Full Kitchen Project</option><option>General Consultation</option></select></div>
-            <div class="form-group"><label for="apptDate">Preferred Date</label><input id="apptDate" type="date"></div>
-            <div class="form-group"><label for="apptTime">Preferred Time</label><input id="apptTime" type="time"></div>
-            <div class="form-group full"><label for="apptNotes">Notes</label><textarea id="apptNotes"></textarea></div>
-            <div class="form-group full"><button class="btn" type="submit">Request Appointment</button></div>
+            <div class="form-group">
+              <label for="apptName">Full Name</label>
+              <input id="apptName" name="Full Name" type="text" required>
+            </div>
+
+            <div class="form-group">
+              <label for="apptPhone">Phone Number</label>
+              <input id="apptPhone" name="Phone Number" type="tel" required>
+            </div>
+
+            <div class="form-group">
+              <label for="apptEmail">Email Address</label>
+              <input id="apptEmail" name="Customer Email" type="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="apptInterest">Product Interest</label>
+              <select id="apptInterest" name="Product Interest">
+                <option>Kitchen Cabinets</option>
+                <option>Quartz Countertops</option>
+                <option>Bathroom Vanity</option>
+                <option>Full Kitchen Project</option>
+                <option>General Consultation</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="apptDate">Preferred Date</label>
+              <input id="apptDate" name="Preferred Date" type="date">
+            </div>
+
+            <div class="form-group">
+              <label for="apptTime">Preferred Time</label>
+              <input id="apptTime" name="Preferred Time" type="time">
+            </div>
+
+            <div class="form-group full">
+              <label for="apptNotes">Notes</label>
+              <textarea id="apptNotes" name="Appointment Notes"></textarea>
+            </div>
+
+            <div class="form-group full">
+              <button class="btn" type="submit">Request Appointment</button>
+            </div>
           </div>
         </form>
+
+        <div class="muted-note">After the first real test submission, check your email inbox and spam folder.</div>
       </div>
     </div>
   </div>
 </section>
-
 
 <footer class="footer">
   <p><strong>Dreams Cabinet &amp; Countertop</strong></p>
@@ -64,6 +105,5 @@
   <p class="small">Serving Virginia, Maryland, Washington DC, and nearby West Virginia areas</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
